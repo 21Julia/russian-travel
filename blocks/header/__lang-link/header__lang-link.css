@@ -4,6 +4,7 @@
   font-weight: normal;
   color: #fff;
   text-decoration: none;
+  margin-left: 18px;
 }
 
 @media all and (max-width: 767px) {
