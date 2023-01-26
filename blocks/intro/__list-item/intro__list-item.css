@@ -1,0 +1,5 @@
+.intro__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

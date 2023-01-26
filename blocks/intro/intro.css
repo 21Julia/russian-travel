@@ -1,0 +1,13 @@
+.intro {
+  max-width: 1280px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media all and (max-width: 767px) {
+  .intro {
+    width: calc(100% - 32px);
+    margin-left: 16px;
+  }
+}

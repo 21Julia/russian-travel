@@ -1,0 +1,11 @@
+.link {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease-in;
+  -o-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+}
+
+.link:hover {
+  opacity: 0.8;
+  cursor: url(../../images/cursor.svg), auto;
+}

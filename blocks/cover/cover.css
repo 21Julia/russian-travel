@@ -1,0 +1,23 @@
+.cover {
+  max-width: 1184px;
+  margin: 92px auto;
+  position: relative;
+}
+
+.cover:hover .cover__background {
+  opacity: 0.3;
+}
+
+@media all and (max-width: 1023px) {
+  .cover {
+    margin-top: 90px;
+    margin-bottom: 88px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .cover {
+    margin-top: 66px;
+    margin-bottom: 64px;
+  }
+}
