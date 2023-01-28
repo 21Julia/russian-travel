@@ -1,14 +1,16 @@
 .cover__link {
-  min-width: 100%;
-  min-height: 100%;
-  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  position: relative;
   color: #fff;
-  position: absolute;
-  top: 0;
-  left: 0;
+  text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

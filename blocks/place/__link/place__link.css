@@ -1,5 +1,8 @@
 .place__link {
-  line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 122%;
   font-size: 18px;
   font-weight: normal;
   color: #fff;

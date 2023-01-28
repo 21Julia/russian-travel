@@ -1,15 +1,15 @@
-.page-content_width {
+.page-content__width {
   max-width: calc(100% - 96px);
 }
 
 @media all and (max-width: 1023px) {
-  .page-content_width {
+  .page-content__width {
     max-width: calc(100% - 48px);
   }
 }
 
 @media all and (max-width: 767px) {
-  .page-content_width {
+  .page-content__width {
     max-width: calc(100% - 32px);
   }
 }

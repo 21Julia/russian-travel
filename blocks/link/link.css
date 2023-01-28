@@ -7,5 +7,5 @@
 
 .link:hover {
   opacity: 0.8;
-  cursor: url(../../images/cursor.svg), auto;
+  cursor: pointer;
 }
