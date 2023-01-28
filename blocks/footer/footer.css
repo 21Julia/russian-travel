@@ -1,4 +1,5 @@
 .footer {
+  max-width: calc(100% - 96px);
   margin: 0 auto 24px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,8 +9,15 @@
           justify-content: space-between;
 }
 
+@media all and (max-width: 1023px) {
+  .footer {
+    max-width: calc(100% - 48px);
+  }
+}
+
 @media all and (max-width: 767px) {
   .footer {
+    max-width: calc(100% - 32px);
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
