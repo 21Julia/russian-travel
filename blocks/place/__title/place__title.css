@@ -6,17 +6,16 @@
   margin: 0;
   display: -ms-grid;
   display: grid;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
   grid-area: title;
 }
 
 @media all and (max-width: 1023px) {
   .place__title {
     font-size: 42px;
-    line-height: 110%;
-    word-spacing: 10px;
+    line-height: 46px;
   }
 }
 

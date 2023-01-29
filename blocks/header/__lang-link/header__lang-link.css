@@ -4,12 +4,16 @@
   font-weight: normal;
   color: #fff;
   text-decoration: none;
-  margin-left: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 6px;
 }
 
 @media all and (max-width: 767px) {
   .header__lang-link {
     line-height: 20px;
     font-size: 18px;
+    margin-bottom: 7px;
   }
 }

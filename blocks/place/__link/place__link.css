@@ -2,9 +2,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  line-height: 122%;
+  line-height: 22px;
   font-size: 18px;
   font-weight: normal;
+  text-underline-offset: 4px;
   color: #fff;
   margin-top: 12px;
 }
