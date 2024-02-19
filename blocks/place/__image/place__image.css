@@ -4,3 +4,7 @@
   max-width: 100%;
   grid-area: image;
 }
+
+.place__image:hover {
+  cursor: pointer;
+}

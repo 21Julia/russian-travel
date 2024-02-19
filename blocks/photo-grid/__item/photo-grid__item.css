@@ -3,3 +3,7 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.photo-grid__item:hover {
+  cursor: pointer;
+}
